@@ -20,18 +20,22 @@ public class task2 {
         //Calculate the grade based on the average percentage
         if (averagePercentage >= 90) {
             grade = 'A'; //90% or above gets an A
-        } else if (averagePercentage >= 80) {
+        } 
+        else if (averagePercentage >= 80) {
             grade = 'B'; //80% or above gets a B
-        } else if (averagePercentage >= 70) {
+        } 
+        else if (averagePercentage >= 70) {
             grade = 'C'; //70% or above gets a C
-        } else if (averagePercentage >= 60) {
+        } 
+        else if (averagePercentage >= 60) {
             grade = 'D'; //60% or above gets a D
-        } else if (averagePercentage >= 50) {
+        } 
+        else if (averagePercentage >= 50) {
             grade = 'E'; //50% or above gets an E
-        } else {
+        } 
+        else {
             grade = 'F'; //lesser gets an F
         }
-        //
         System.out.println("\nTotal Marks: " + totalMarks);//Print total marks
         System.out.println("Average Percentage: " + averagePercentage + "%");//Print average percentage
         System.out.println("Grade: " + grade);//Print grade   
