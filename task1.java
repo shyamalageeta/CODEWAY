@@ -48,6 +48,6 @@ public class GuessTheNumber {
         }
         //After the user is done playing, print the final score
         System.out.println("Game over! Your final score is: " + score);
-        scanner.close();
+        sc.close();
     }
 }
